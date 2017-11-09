@@ -753,13 +753,19 @@ footer {
 		padding: 0 20px;
 	}
 	.header__text {
-		margin-top: 180px;
+		margin-top: 50%;
 	}
 	.something__ltext {
 		margin-bottom: 30px;
 	}
+	.something__ltext:last-child {
+		display: none;
+	}
+	.details__text:last-child {
+		display: none;
+	}
 	.car-wrap {
-		padding-top: 300px;
+		padding-top: 50%;
 	}
 	.car__title {
 		font-size: 40px;
@@ -767,10 +773,16 @@ footer {
 	.car__text {
 		font-size: 14px;
 	}
+	.buy__wrap {
+		padding: 40px 0;
+	}
 	.buy__solo,
 	.buy__team {
 		padding: 20px;
 		height: 430px;
+	}
+	footer {
+		padding-top: 50px;
 	}
 	.mail {
 		height: 40px;
