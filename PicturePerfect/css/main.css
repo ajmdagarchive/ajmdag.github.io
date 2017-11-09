@@ -652,6 +652,10 @@ footer {
 	.footer-list__item {
 		margin-bottom: 10px;
 	}
+	.mail::placeholder {
+		color: #ccc;
+		font-size: 25px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -680,7 +684,7 @@ footer {
 		width: 100%;
 	}
 	.car-wrap {
-		padding-top: 450px;
+		padding-top: 320px;
 	}
 	.car__title {
 		font-size: 55px;
@@ -764,11 +768,24 @@ footer {
 	}
 	.buy__solo,
 	.buy__team {
-		padding: 30px;
+		padding: 20px;
 		height: 430px;
 	}
 	.mail {
 		height: 40px;
 		font-size: 20px;
+		padding: 0 10px;
+	}
+	.mail::placeholder {
+		color: #ccc;
+		font-size: 22px;
+	}
+}
+
+@media (max-width: 320px) {
+	.buy__solo,
+	.buy__team {
+		padding: 10px;
+		height: 430px;
 	}
 }
