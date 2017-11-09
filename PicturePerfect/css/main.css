@@ -172,6 +172,7 @@ header {
 }
 
 .heart {
+	outline: none;
 	transition: .4s;
 	font-size: 20px!important;
 	position: absolute;
