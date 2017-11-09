@@ -77,7 +77,7 @@ header {
 }
 
 .header__maintext {
-	font: 13px Open Sans;
+	font: 16px Open Sans;
 	color: #fff;
 }
 
@@ -143,22 +143,22 @@ header {
 	padding: 35px 320px 0 30px;
 	color: #fff;
 	transition: .15s;
-}
+}/* 
 
 .block:hover,
 .lblock:hover {
 	transform: scale(1.013);
 	overflow: hidden;
 	z-index: 1;
-}
+} */
 
 .block__title {
-	font: lighter 30px Open Sans;
+	font: lighter 35px Open Sans;
 	margin-bottom: 25px;
 }
 
 .block__text {
-	font-size: 13px;
+	font-size: 16px;
 	margin-bottom: 15px;
 }
 
@@ -263,7 +263,8 @@ header {
 }
 
 .car-wrap {
-	padding-top: 500px;
+	padding-top: 550px;
+	text-shadow: 0 0 10px #000;
 }
 
 .car__title {
@@ -274,7 +275,8 @@ header {
 }
 
 .car__text {
-	font-size: 13px;
+	width: 700px;
+	font-size: 17px;
 	margin-bottom: 25px;
 	line-height: 25px;
 }
@@ -483,6 +485,11 @@ footer {
 	margin-bottom: 20px;
 }
 
+.mail::placeholder {
+	color: #ccc;
+	font-size: 30px;
+}
+
 .tick {
 	background: #82ca9c;
 	color: #fff;
@@ -608,14 +615,14 @@ footer {
 		margin-bottom: 10px;
 	}
 	.details__text {
-		margin-bottom: 30px;
+		margin-bottom: 35px;
 	}
 	.car {
 		background-position: 20% 20%;
 		height: 130vh;
 	}
 	.car-wrap {
-		padding-top: 450px;
+		padding-top: 400px;
 	}
 	.buy__solo,
 	.buy__team {
@@ -658,6 +665,9 @@ footer {
 		width: 100%;
 		margin: 0;
 	}
+	.something__ltext {
+		margin-bottom: 30px;
+	}
 	.blocks-row {
 		flex-wrap: wrap;
 	}
@@ -670,10 +680,14 @@ footer {
 		width: 100%;
 	}
 	.car-wrap {
-		text-shadow: 0 0 10px #000;
+		padding-top: 450px;
 	}
 	.car__title {
-		font-size: 50px;
+		font-size: 55px;
+	}
+	.car__text {
+		font-size: 15px;
+		width: auto;
 	}
 	.reasons {
 		padding: 50px 0;
@@ -733,12 +747,25 @@ footer {
 	.wrapper {
 		padding: 0 20px;
 	}
+	.header__text {
+		margin-top: 180px;
+	}
+	.something__ltext {
+		margin-bottom: 30px;
+	}
+	.car-wrap {
+		padding-top: 300px;
+	}
 	.car__title {
-		font-size: 34px;
+		font-size: 40px;
+	}
+	.car__text {
+		font-size: 14px;
 	}
 	.buy__solo,
 	.buy__team {
-		padding: 20px;
+		padding: 30px;
+		height: 430px;
 	}
 	.mail {
 		height: 40px;
