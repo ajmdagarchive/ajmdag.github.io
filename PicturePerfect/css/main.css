@@ -686,6 +686,9 @@ footer {
 }
 
 @media (max-width: 767px) {
+	.blocks .wrapper {
+		padding: 0;
+	}
 	.something__wrap {
 		flex-wrap: wrap;
 	}
@@ -698,6 +701,7 @@ footer {
 	}
 	.something__ltext {
 		margin-bottom: 30px;
+		text-align: center;
 	}
 	.car-wrap {
 		padding-top: 40vh;
