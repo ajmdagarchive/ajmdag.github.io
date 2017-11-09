@@ -66,7 +66,7 @@ header {
 }
 
 .header__text {
-	margin-top: 50%;
+	margin-top: 30vh;
 	max-width: 550px;
 }
 
@@ -101,7 +101,7 @@ header {
 }
 
 .something__ltext {
-	font-size: 14px;
+	font-size: 16px;
 	color: #959595;
 	margin-bottom: 20px;
 }
@@ -143,14 +143,7 @@ header {
 	padding: 35px 320px 0 30px;
 	color: #fff;
 	transition: .15s;
-}/* 
-
-.block:hover,
-.lblock:hover {
-	transform: scale(1.013);
-	overflow: hidden;
-	z-index: 1;
-} */
+}
 
 .block__title {
 	font: lighter 35px Open Sans;
@@ -263,7 +256,7 @@ header {
 }
 
 .car-wrap {
-	padding-top: 40%;
+	padding-top: 80vh;
 	text-shadow: 0 0 10px #000;
 }
 
@@ -581,9 +574,6 @@ footer {
 		background-position: 60%;
 		height: 140vh;
 	}
-	.car-wrap {
-		padding-top: 530px;
-	}
 }
 
 @media (max-width: 991px) {
@@ -620,9 +610,6 @@ footer {
 	.car {
 		background-position: 20% 20%;
 		height: 130vh;
-	}
-	.car-wrap {
-		padding-top: 400px;
 	}
 	.buy__solo,
 	.buy__team {
@@ -682,9 +669,6 @@ footer {
 	}
 	.lblock {
 		width: 100%;
-	}
-	.car-wrap {
-		padding-top: 320px;
 	}
 	.car__title {
 		font-size: 55px;
@@ -760,9 +744,6 @@ footer {
 	}
 	.details__item:last-child {
 		display: none;
-	}
-	.car-wrap {
-		padding-top: 50%;
 	}
 	.car__title {
 		font-size: 40px;
