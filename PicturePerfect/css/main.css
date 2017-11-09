@@ -752,16 +752,13 @@ footer {
 	.wrapper {
 		padding: 0 20px;
 	}
-	.header__text {
-		margin-top: 50%;
-	}
 	.something__ltext {
 		margin-bottom: 30px;
 	}
 	.something__ltext:last-child {
 		display: none;
 	}
-	.details__text:last-child {
+	.details__item:last-child {
 		display: none;
 	}
 	.car-wrap {
