@@ -712,6 +712,9 @@ footer {
 	.reasons {
 		padding: 50px 0;
 	}
+	.reasons__main {
+		text-align: center;
+	}
 	.reasons__list {
 		display: block;
 	}
@@ -745,12 +748,14 @@ footer {
 	}
 	.get__title {
 		margin-bottom: 15px;
+		text-align: center;
 	}
 	.get-left {
 		width: 100%;
+		text-align: center;
 	}
 	.get__text {
-		margin-bottom: 20px;
+		margin-bottom: 30px;
 	}
 	.footer-bottom-wrap {
 		display: block;
@@ -762,6 +767,12 @@ footer {
 	.socials {
 		width: 100%;
 		margin: 0 auto;
+	}
+	.socials__title {
+		text-align: center;
+	}
+	.socials-list {
+		justify-content: center;
 	}
 }
 
