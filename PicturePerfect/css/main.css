@@ -187,28 +187,36 @@ header {
 }
 
 .block1 {
-	background: url(../images/block1.png);
+	background: url(../images/block1.jpg);
+	background-repeat: no-repeat!important;
+	background-position: 100%;
+	background-size: cover;
 }
 
 .block2 {
-	background: url(../images/block2.png);
+	background: url(../images/block2.jpg);
+	background-repeat: no-repeat!important;
+	background-position: 100%;
+	background-size: cover;
 }
 
 .block3 {
-	background-repeat: no-repeat!important;
 	background: url(../images/block3.png);
+	background-repeat: no-repeat!important;
 	background-position: 100%;
+	background-size: cover;
 }
 
 .lblock4 {
+	background: url(../images/lblock4.jpg);
 	background-repeat: no-repeat!important;
-	background: url(../images/lblock4.png);
 	background-position: 10% 68%;
+	background-size: cover;
 }
 
 .block5 {
-	background: #82ca9c;
-	background: url(../images/block5.png);
+	background: url(../images/block5.jpg);
+	background-repeat: no-repeat!important;
 	background-position: 100%;
 	background-size: cover;
 }
