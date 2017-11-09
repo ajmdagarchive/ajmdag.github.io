@@ -66,7 +66,7 @@ header {
 }
 
 .header__text {
-	margin-top: 220px;
+	margin-top: 50%;
 	max-width: 550px;
 }
 
@@ -263,7 +263,7 @@ header {
 }
 
 .car-wrap {
-	padding-top: 550px;
+	padding-top: 40%;
 	text-shadow: 0 0 10px #000;
 }
 
@@ -711,12 +711,13 @@ footer {
 	}
 	.buy__solo {
 		width: 100%;
+		margin-bottom: 20px;
 	}
 	.buy__team {
 		width: 100%;
 	}
 	.buy__text {
-		margin-bottom: 30px;
+		margin-bottom: 50px;
 	}
 	.get-wrap {
 		display: block;
@@ -778,7 +779,13 @@ footer {
 	}
 	.mail::placeholder {
 		color: #ccc;
-		font-size: 22px;
+		font-size: 20px;
+	}
+	.footer-list__title {
+		font-size: 16px;
+	}
+	.footer-list__link {
+		font-size: 13px;
 	}
 }
 
