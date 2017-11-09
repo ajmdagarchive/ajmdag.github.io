@@ -187,11 +187,11 @@ header {
 }
 
 .block1 {
-	background: #f5989d;
+	background: url(../images/block1.png);
 }
 
 .block2 {
-	background: #615f7d;
+	background: url(../images/block2.png);
 }
 
 .block3 {
@@ -202,12 +202,15 @@ header {
 
 .lblock4 {
 	background-repeat: no-repeat!important;
-	background: url(../images/lblock5.png);
+	background: url(../images/lblock4.png);
 	background-position: 10% 68%;
 }
 
 .block5 {
 	background: #82ca9c;
+	background: url(../images/block5.png);
+	background-position: 100%;
+	background-size: cover;
 }
 
 /* details */
@@ -577,10 +580,21 @@ footer {
 }
 
 @media (max-width: 991px) {
+	.something__title {
+		text-align: center;
+	}
+	.blocks-row {
+		flex-wrap: wrap;
+	}
 	.block {
+		width: 100%;
+		background-size: cover;
 		padding: 20px;
 	}
 	.lblock {
+		flex: 1;
+		width: 100%;
+		background-size: cover;
 		padding: 20px;
 	}
 	.block__title {
@@ -598,22 +612,48 @@ footer {
 	.details {
 		margin-bottom: 50px;
 	}
+	.details__main {
+		text-align: center;
+	}
 	.details__list {
 		flex-wrap: wrap;
 	}
 	.details__title {
 		margin-bottom: 10px;
+		text-align: center;
 	}
 	.details__text {
 		margin-bottom: 35px;
+		text-align: center;
 	}
 	.car {
 		background-position: 20% 20%;
 		height: 130vh;
 	}
+	.car-wrap {
+		padding-top: 50vh;
+	}
+	.reasons__title {
+		text-align: center;
+	}
+	.reasons__text {
+		text-align: center;
+	}
 	.buy__solo,
 	.buy__team {
-		padding: 35px ;
+		padding: 25px 35px 35px 35px;
+		text-align: center;
+	}
+	.buy__nice {
+		margin-bottom: 10px;
+		margin: 0 auto;
+	}
+	.buy__title {
+		margin-top: 10px;
+	}
+	.buy__icons {
+		display: block;
+		margin: 0 auto;
 	}
 	.buy__wrap {
 		padding-bottom: 80px;
@@ -659,16 +699,8 @@ footer {
 	.something__ltext {
 		margin-bottom: 30px;
 	}
-	.blocks-row {
-		flex-wrap: wrap;
-	}
-	.block {
-		width: 100%;
-		background-position: 20%;
-		background-size: cover;
-	}
-	.lblock {
-		width: 100%;
+	.car-wrap {
+		padding-top: 40vh;
 	}
 	.car__title {
 		font-size: 55px;
@@ -693,12 +725,13 @@ footer {
 	.buy__wrap {
 		display: block;
 	}
-	.buy__solo {
-		width: 100%;
-		margin-bottom: 20px;
-	}
+	.buy__solo,
 	.buy__team {
-		width: 100%;
+	width: 100%;
+	height: 390px;
+	}
+	.buy__solo {
+		margin-bottom: 20px;
 	}
 	.buy__text {
 		margin-bottom: 50px;
@@ -736,6 +769,9 @@ footer {
 	.wrapper {
 		padding: 0 20px;
 	}
+	.header__text {
+		margin-top: 10vh;
+	}
 	.something__ltext {
 		margin-bottom: 30px;
 	}
@@ -745,8 +781,12 @@ footer {
 	.details__item:last-child {
 		display: none;
 	}
+	.car-wrap {
+		padding-top: 30vh;
+	}
 	.car__title {
 		font-size: 40px;
+		line-height: 45px;
 	}
 	.car__text {
 		font-size: 14px;
@@ -772,7 +812,7 @@ footer {
 		font-size: 20px;
 	}
 	.footer-list__title {
-		font-size: 16px;
+		font-size: 15px;
 	}
 	.footer-list__link {
 		font-size: 13px;
